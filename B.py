@@ -1,14 +1,23 @@
-fbks=('com.facebook.adsmanager','com.facebook.lite','com.facebook.orca','com.facebook.katana')
+fbks = ('com.facebook.adsmanager', 'com.facebook.lite', 'com.facebook.orca', 'com.facebook.katana')
 
 from os import path
-from mahdix import *
 from urllib.request import urlopen
-import os,base64,zlib,pip,urllib,urllib3, sys, re, requests, time, random, json, string
+import os
+import base64
+import zlib
+import pip
+import urllib3
+import sys
+import re
+import requests
+import time
+import random
+import json
+import string
 from bs4 import BeautifulSoup as bs
 from datetime import datetime
 from time import time as tim
-import urllib.request,mahdix
-
+import mahdix
 ######METHOD PROTECT######
 def clr():
     try:
